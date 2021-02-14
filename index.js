@@ -81,7 +81,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     promptUser().then((answers)=>{
-        writeToFile("readme.md",generateMarkdown(answers));
+        writeToFile("README.md",generateMarkdown(answers));
     }).catch(
         (err)=>{
             console.log(err+" Something went wrong");
