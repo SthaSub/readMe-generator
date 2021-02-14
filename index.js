@@ -74,7 +74,7 @@ const promptUser = () => {
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err)=>{
         if(err) console.log(err);
-        console.log("successfully created");
+        console.log("successfully readme.md created");
     });  
 }
 
