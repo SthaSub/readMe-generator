@@ -115,10 +115,6 @@ function generateMarkdown(data) {
     if you have questions then please feel free to contact on these addresses,
     Github: ${data.github}
     Email: ${data.email}
-  
-  ## Video Demostration
-    vimeo:   
-
     `;
 }
 

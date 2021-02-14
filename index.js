@@ -50,22 +50,22 @@ const promptUser = () => {
         {
             type:"input",
             name:"guideline",
-            message:"Enter contribution Guidelines"
+            message:questions[6]
         },
         {
             type:"input",
             name:"test",
-            message:"Enter Test Instructions"
+            message:questions[7]
         },
         {
             type:"input",
             name:"github",
-            message:"Enter your GitHub Username"
+            message:questions[8]
         },
         {
             type:"input",
             name:"email",
-            message:"Enter Email Address"
+            message:questions[9]
         }
     ]);
 } 
