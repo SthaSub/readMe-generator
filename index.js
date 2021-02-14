@@ -1,23 +1,92 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
+const fs = require("fs");
+
+const licenses = ["Apache","MIT","Eclipse","Boost","IBM","GPL","BSD","Perl","Mozilla","No License"];
 
 // TODO: Create an array of questions for user input
-const questions = ["Enter project Title", "Enter project Description",
+const questions = ["Enter project Title",
+ "Enter project Description",
+ "Choose license",
  ,"Enter Installation Instruction", 
  "Enter usage Information",
 "Enter contribution Guidelines",
-"Enter Test Instructions"," Enter your GitHub Username",
-"Enter Email Address",
-"Enter Table of COntents"];
+"Enter Test Instructions",
+"Enter your GitHub Username",
+"Enter Email Address"
+];
+
+const promptUser = () => {
+    return inquirer.prompt([
+        {
+            type:"input",
+            name:"title",
+            message:questions[0]
+        },
+        {
+            type:"input",
+            name:"description",
+            message:questions[1]
+        },
+        
+        
+        {
+            type:"list",
+            name:"license",
+            message:"Choose license",
+            choices:licenses
+        },
+        {
+            type:"input", 
+            name:"installation",
+            message:questions[3]
+        },
+        {
+            type:"input",
+            name:"usage",
+            message:"Enter usage Information"
+        },
+        {
+            type:"input",
+            name:"guideline",
+            message:"Enter contribution Guidelines"
+        },
+        {
+            type:"input",
+            name:"test",
+            message:"Enter Test Instructions"
+        },
+        {
+            type:"input",
+            name:"github",
+            message:"Enter your GitHub Username"
+        },
+        {
+            type:"input",
+            name:"email",
+            message:"Enter Email Address"
+        }
+    ]);
+} 
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return 
+    fs.writeFile(fileName, data, (err)=>{
+        if(err) console.log(err);
+        console.log("successfully created");
+    });  
 }
 
 // TODO: Create a function to initialize app
 function init() {
-
+    promptUser().then((answers)=>{
+        writeToFile("readme.md",generateMarkdown(answers));
+    }).catch(
+        (err)=>{
+            console.log(err+" Something went wrong");
+        }
+    );
 }
 
 // Function call to initialize app
