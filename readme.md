@@ -17,7 +17,7 @@
      This project aim for generating suitable readme for project to allow the user easily understand the project sturcture, installation, test and deployment
 
   ## Installation
-     clone from this link git@github.com:SthaSub/readMe-generator.git to local 
+     clone from this link git@github.com:SthaSub/readMe-generator.git to local, and enter on terminal "node i" or "node install" for downloading dependencies. 
 
   ## Usage Information
      useful for generating structured readme for project
