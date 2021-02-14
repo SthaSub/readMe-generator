@@ -34,18 +34,18 @@ const promptUser = () => {
         {
             type:"list",
             name:"license",
-            message:"Choose license",
+            message:questions[2],
             choices:licenses
         },
         {
             type:"input", 
             name:"installation",
-            message:questions[3]
+            message:questions[4] // here installation question set as index 3, but now it takes as index 4
         },
         {
             type:"input",
             name:"usage",
-            message:"Enter usage Information"
+            message:questions[5]
         },
         {
             type:"input",
