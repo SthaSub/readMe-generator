@@ -27,7 +27,7 @@ const questions = [
     {
         type: "input",
         name: "installation",
-        message: "Enter Installation Instruction" // here installation question set as index 3, but now it takes as index 4
+        message: "Enter Installation Instruction"
     },
     {
         type: "input",
