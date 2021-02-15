@@ -1,8 +1,9 @@
 // TODO: Include packages needed for this application
-const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
-const fs = require("fs");
+const inquirer = require("inquirer"); // obj form inquirer package
+const generateMarkdown = require("./utils/generateMarkdown"); // obj from generateMarkdown
+const fs = require("fs"); // object from filysytem package
 
+// predifened names of license stored in array
 const licenses = ["Apache","MIT","Eclipse","Boost","IBM","GPL","BSD","Perl","Mozilla","No License"];
 
 // TODO: Create an array of questions for user input
@@ -17,6 +18,7 @@ const questions = ["Enter project Title",
 "Enter Email Address"
 ];
 
+// prompt the questions on terminal 
 const promptUser = () => {
     return inquirer.prompt([
         {
@@ -29,8 +31,6 @@ const promptUser = () => {
             name:"description",
             message:questions[1]
         },
-        
-        
         {
             type:"list",
             name:"license",
@@ -71,6 +71,7 @@ const promptUser = () => {
 } 
 
 // TODO: Create a function to write README file
+// generates the file from given name and data
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err)=>{
         if(err) console.log(err);
