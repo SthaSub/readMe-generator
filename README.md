@@ -1,8 +1,8 @@
 
   # Title
-  Readme generator
+  title
   
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
   ## Table of contents 
   - [Description](#description)
@@ -14,27 +14,25 @@
   - [Questions](#questions)
   
   ## Description
-     This project aim for generating suitable readme for project to allow the user easily understand the project sturcture, installation, test and deployment
+     des
 
   ## Installation
-     clone from this link git@github.com:SthaSub/readMe-generator.git to local, and enter on terminal "node i" or "node install" for downloading dependencies. 
+     gin
 
   ## Usage Information
-     useful for generating structured readme for project
+     gsf
 
   ## License
-     MIT license
+     Apache 2.0 License
   
   ## Contribution Guidelines
-     N/A
+     sadsad
 
   ## Test Procedure
-     For test, it requires jest dependency and FILE_NAME.test.js need to be created 
+     asdsa
 
   ## Questions
     if you have questions then please feel free to contact on these addresses,
-    Github: SthaSub
-    Email: subhashshrestha3@gmail.com
-  
-  ## Video Demostration
-    vimeo: https://vimeo.com/user90135522/review/512368185/11d0d2ce2a
+    Github: asdsa
+    Email: sadsa
+    
