@@ -1,6 +1,6 @@
 
   # Title
-  Readme generator
+  title
   
   [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
@@ -14,29 +14,25 @@
   - [Questions](#questions)
   
   ## Description
-     This project aim for generating suitable readme for project to allow the user easily understand the project sturcture, installation, test and deployment
+     des
 
   ## Installation
-     clone from this link git@github.com:SthaSub/readMe-generator.git to local, and enter on terminal "node i" or "node install" for downloading dependencies. 
+     Intruction
 
   ## Usage Information
-     useful for generating structured readme for project
+     Usage
 
   ## License
      MIT license
   
   ## Contribution Guidelines
-     N/A
+     cguide
 
   ## Test Procedure
-     For test, it requires jest dependency and FILE_NAME.test.js need to be created 
+     tes
 
   ## Questions
     if you have questions then please feel free to contact on these addresses,
-    Github: SthaSub
-    Email: subhashshrestha3@gmail.com
-  
-  ## Video Demostration
-    vimeo: https://vimeo.com/user90135522/review/512368185/11d0d2ce2a   
-
+    Github: substha
+    Email: subahshashb
     
