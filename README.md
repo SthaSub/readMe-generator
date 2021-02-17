@@ -33,10 +33,11 @@
 
   ## Questions
     if you have questions then please feel free to contact on these addresses,
-    Github: SthaSub
-    Email: subhashshrestha3@gmail.com
+  Github: [SthaSub](https://github.com/SthaSub)
+  
+  Email: [subhashshrestha3@gmail.com](subhashshrestha3@gmail.com)
   
   ## Video Demostration
-    vimeo: https://vimeo.com/user90135522/review/512368185/11d0d2ce2a   
+  video: [Demo](https://vimeo.com/user90135522/review/512368185/11d0d2ce2a)   
 
     
