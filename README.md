@@ -38,6 +38,6 @@
   Email: [subhashshrestha3@gmail.com](subhashshrestha3@gmail.com)
   
   ## Video Demostration
-  video: [Demo](https://vimeo.com/user90135522/review/512368185/11d0d2ce2a)   
+  video: [Demo](https://vimeo.com/512368185)   
 
     
